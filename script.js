@@ -34,3 +34,6 @@ function draw()
 }
 
 setInterval(draw, 35);
+
+// How good is your cryptography?
+// 2w#_4w|e{Jh<2)};3by<{>5?{Ky*#(#z*aA+r8ll
