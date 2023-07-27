@@ -214,7 +214,6 @@ figure figcaption {
   text-decoration: none;
 }
 
-/*btn_background*/
 .effect04 {
   --uismLinkDisplay: var(--smLinkDisplay, inline-flex);
   display: var(--uismLinkDisplay);
@@ -232,19 +231,16 @@ figure figcaption {
 	transition-duration: 0.4s;
 }
 
-/* 文字1を上に */
 .effect04:hover{
 
   background-color: #000;
 }
 
-/* HOVERしたら文字1を上に */
 .effect04:hover span{
   -webkit-transform: translateY(-400%) scale(-0.1,20);
           transform: translateY(-400%) scale(-0.1,20);
 }
 
-/*文字2*/
 .effect04::before{
   content: attr(data-sm-link-text);
 	color: #FFF;
@@ -256,7 +252,6 @@ figure figcaption {
           transform: translateY(500%) scale(-0.1,20);
 }
 
-/* HOVERしたら文字2を上に */
 .effect04:hover::before{
   letter-spacing: 0.05em;
   -webkit-transform: translateY(0) scale(1,1);
